@@ -1,0 +1,259 @@
+body
+{
+  position: absolute;
+  overflow: hidden;
+  background: #000000;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow: none;
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+#sendbox
+{
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px #ffffff55;
+  background: #1a015e;
+}
+
+#sendtext
+{
+  display: block;
+  font-size: 2em;
+  float: left;
+  width: auto;
+}
+
+#lineending
+{
+  font-size: 2em;
+  margin-left: 10px;
+  margin-right: 5px;
+  color: #ffffff;
+  background: #1a015e;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#sendbutton
+{
+  font-size: 2em;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ffffff;
+  background: #1a015e;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#sendbutton:active
+{
+  background: #ffffff;
+  color: #1a015e;
+  border: 1px solid #ffff00;
+}
+
+#sendbutton:hover
+{
+  border: 1px solid #ffffff;
+}
+
+#disconnectbutton
+{
+  font-size: 2em;
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #6b0d03;
+  color: #ffffff;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#disconnectbutton:active
+{
+  background: #ffffff;
+  color: #6b0d03;
+  border: 1px solid #ffff00;
+}
+
+#disconnectbutton:hover
+{
+  border: 1px solid #ffffff;
+}
+
+#btdevicesbox
+{
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  border: 1px solid #c1a6a6;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px #ffffff55;
+  background: #1a015e;
+}
+
+#bluetoothoff
+{
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  border: 1px solid #c1a6a6;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px #ffffff55;
+  background: #6b0d03;
+}
+
+#bluetoothofftext
+{
+  color: #ffffff;
+  font-size: 2em;
+}
+
+#btselect
+{
+  font-size: 2em;
+  color: #ffffff;
+  background: #1a015e;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#connectbutton
+{
+  font-size: 2em;
+  float: right;
+  background: #00ff00;
+  color: #000000;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#connectbutton:active
+{
+  background: #888888;
+  color: #00ff00;
+  border: 1px solid #ffff00;
+}
+
+#connectbutton:hover
+{
+  border: 1px solid #ffffff;
+}
+
+#statusdiv
+{
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px solid #c1a6a6;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px #ffffff55;
+  background: #1a015e;
+}
+
+#statustext
+{
+  float: left;
+  font-size: 2em;
+  color: #ffffff;
+  width: 70%;
+}
+
+#messagediv
+{
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  border: 1px solid #c1a6a6;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px #ffffff55;
+  font-size: 1.5em;
+  color: #ffffff;
+  overflow-y: scroll;
+  background: #1a015e;
+  user-select: text;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+#clearbutton
+{
+  float: right;
+  font-size: 2em;
+  margin-left: 5px;
+  margin-right: 20px;
+  color: #ffffff;
+  background: #1a015e;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#clearbutton:active
+{
+  background: #ffffff;
+  color: #1a015e;
+  border: 1px solid #ffff00;
+}
+
+#clearbutton:hover
+{
+  border: 1px solid #ffffff;
+}
+
+#savebutton
+{
+  float: right;
+  font-size: 2em;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  background: #1a015e;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#savebutton:active
+{
+  background: #ffffff;
+  color: #1a015e;
+  border: 1px solid #ffff00;
+}
+
+#savebutton:hover
+{
+  border: 1px solid #ffffff;
+}
+
+.vertical-center
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

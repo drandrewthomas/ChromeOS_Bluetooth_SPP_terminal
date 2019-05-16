@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "BT Terminal",
+  "short_name": "BTTerminal",
+  "description": "A Bluetooth SPP terminal for ChromeOS",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "bluetooth":{
+    "socket": true,
+    "uuids": ["00001101-0000-1000-8000-00805f9b34fb"]
+  }
+  
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BT SPP Terminal</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="./jquery.min.js"></script>
+  <script src="./FileSaver.min.js"></script>
+  <script src="./btterminalspp.js"></script>
+  <script src="./btterminal.js"></script>
+</head>
+<body>
+  <div id="bluetoothoff">
+    <div id="bluetoothofftext" class="vertical-center">Bluetooth is turned off!</div>
+  </div>
+  <div id="btdevicesbox">
+    <select id="btselect"></select>
+    <button type="button" id="connectbutton">Connect</button>
+  </div>
+  <div id="sendbox">
+    <input type="text" id="sendtext" />
+    <select id="lineending">
+      <option selected>No line ending</option>
+      <option>Add CR</option>
+      <option>Add CRLF</option>
+    </select>
+    <button type="button" id="sendbutton">Send</button>
+    <button type="button" id="disconnectbutton">Disconnect</button>
+  </div>
+  <div id="messagediv"></div>
+  <div id="statusdiv">
+    <div id="statustext" class="vertical-center"></div>
+    <button type="button" id="savebutton">Save</button>
+    <button type="button" id="clearbutton">Clear</button>
+  </div>
+</body>
+</html>
