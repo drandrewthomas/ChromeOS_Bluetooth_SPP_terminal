@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I wanted a simple Bluetooth SPP terminal app for my Chromebook but the Chrome web-store didn't have much to offer that suited my needs. So I decided to write this app to let me connect to my SPP (serial port profile) Bluetooth devices, such as Arduino circuits and even my desktop CNC router and LASER cutter, and save data from them. As it might be useful for others writing Bluetooth apps for ChromeOS I decided to publish it here as open-source code. It works in clamshell and tablet mode and you can see what it looks like in the images folder and the picture below.
+I wanted a simple offline-capable Bluetooth SPP terminal app for my Chromebook but the Chrome web-store didn't have much to offer that suited my needs. So I decided to write this app to let me connect to my SPP (serial port profile) Bluetooth devices, such as Arduino circuits and even my desktop CNC router and LASER cutter, and save data from them. As it might be useful for others writing Bluetooth apps for ChromeOS I decided to publish it here as open-source code. It works in clamshell and tablet mode and you can see what it looks like in the images folder and the picture below.
 
 ![Screenshot](https://github.com/drandrewthomas/ChromeOS_Bluetooth_SPP_terminal/blob/master/images/screenshot.png)
 
@@ -18,11 +18,11 @@ Once you connect to your SPP device the app works much like the serial monitor i
 
 At the bottom of the app you'll also find two buttons: one to clear the text and one to save it. Clicking the save button causes download of the whole of the text received from the SPP device since it was last cleared. You can scroll back through the text too, although preferably not while the SPP device is sending text as the last received text is always scrolled to when it arrives.
 
-Also, the text is retained when you disconnect and reconnect, so that you can collect and save data from multiple devices. And, apart from the above, hopefully use of the rest of the app interface will be quite obvious. However, if you have any issues, or find any bugs, please report them here on Github.
+Also, the text is retained when you disconnect and reconnect, as long as you don't close the app, so that you can collect and save data from multiple devices. And, apart from the above, hopefully use of the rest of the app interface will be quite obvious. However, if you have any issues, or find any bugs, please report them here on Github.
 
 ## Privacy
 
-This project works entirely as a web-app on your Chromebook. None of your files are uploaded to a server while you use this software. Also, no private data about you or your files is collected or transmitted by this software and no cookies are used. However, please note that, as described in the license file, you use this software at your own risk.
+This project works entirely as a web-app on your Chromebook. None of your files are uploaded to a server while you use this software. Also, no private data about you or your files is collected or transmitted by this software and no cookies are used. In fact, the app doesn't even connect to the internet. However, please note that, as described in the license file, you use this software at your own risk.
 
 ## Credits and sources
 
