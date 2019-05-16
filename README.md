@@ -10,7 +10,7 @@ I wanted a simple offline-capable Bluetooth SPP terminal app for my Chromebook b
 
 The easiest way to install the app (apart from expert users sideloading the code) is from the Chrome web store:
 
-***LINKSOON***
+[https://chrome.google.com/webstore/detail/bt-terminal/klgaoaliikfdaonpefgepfhecklgafdp](https://chrome.google.com/webstore/detail/bt-terminal/klgaoaliikfdaonpefgepfhecklgafdp)
 
 Then just run it like any other Chrome app. To connect to SPP devices you obviously need to turn on Bluetooth on your Chromebook. Then the app will show a dropdown list of all SPP devices that the Bluetooth adaptor knows about. That's very important: basically if you don't see your device listed (or any device even) it means you need to pair the SPP device with your Chromebook **before** opening the app. Then, when you open the app you should find your device in the dropdown.
 
