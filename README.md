@@ -8,7 +8,7 @@ I wanted a simple Bluetooth SPP terminal app for my Chromebook but the Chrome we
 
 ## Using the app
 
-The easiest way to install the app (apart from expert users sideloading thecode) is from the Chrome web store:
+The easiest way to install the app (apart from expert users sideloading the code) is from the Chrome web store:
 
 ***LINKSOON***
 
